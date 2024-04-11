@@ -37,11 +37,11 @@ export default function Home() {
           <div className="mt-[30vw] lg:mt-[20vw] font-zoocute italic text-white text-8xl z-50 text-center"> ABOUT </div>
 
           <div className="w-full lg:px-[20vw] px-[5vw] text-center lg:pb-[40vh] pb-[30vh] pt-[5vh] h-fit italic text-white lg:text-4xl text-3xl font-zoocute leading-[7vh]">
-            Meet $GRAPH, the cryptocurrency that's taking the market to new heights with its adorable mascot, G-raph the giraffe.
+            Meet $GRAPH, the cryptocurrency that&apos;s taking the market to new heights with its adorable mascot, G-raph the giraffe.
             With the tallest neck in the crypto savannah, G-raph symbolizes our reach for soaring candles and long-term growth. Agile and visionary, 
             just like our giraffe navigating the volatile landscapes, $GRAPH offers a fresh, innovative approach to digital investments. Embodying 
             community and sustainability with a heart as vast as his neck, G-raph invites you on a journey where humor and innovation meet, 
-            proving that in the $GRAPH ecosystem, the sky's just the beginning.
+            proving that in the $GRAPH ecosystem, the sky&apos;s just the beginning.
           </div>
 
           <div className="absolute lg:hidden z-30 w-[110vw] h-[120vw] bottom-[-55vw] bg-[url('/components/leaf_upside_down.png')] bg-center bg-contain object-contain bg-no-repeat"></div>

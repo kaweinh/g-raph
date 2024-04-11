@@ -34,7 +34,7 @@ const Tokenomics = (props: Props) => {
             <div className='bg-black w-full h-fit'>
                 <div className="bg-[url('/components/weed_bg.png')] bg-center bg-cover object-cover w-full h-fit pb-[5vw] lg:pt-[30vh] pt-[15vh] flex flex-col justify-center items-center font-zoocute">
                     <div className=' text-white font-jungle-land text-4xl w-[55%] text-center'>
-                        WE'LL SEE YOU AT THE TOP!
+                        WE&apos;LL SEE YOU AT THE TOP!
                     </div>
 
                     <div className='pt-[10vh] flex justify-center items-center'>
