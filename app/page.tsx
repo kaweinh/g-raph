@@ -39,7 +39,7 @@ export default function Home() {
             CHART 
           </motion.div>
 
-          <div className="mt-[30vw] lg:mt-[20vw] font-zoocute italic text-white text-8xl z-50 text-center"> ABOUT </div>
+          <div id="about" className="mt-[30vw] lg:mt-[20vw] font-zoocute italic text-white text-8xl z-50 text-center"> ABOUT </div>
 
           <div className="w-full lg:px-[20vw] px-[5vw] text-center lg:pb-[40vh] pb-[30vh] pt-[5vh] h-fit italic text-white lg:text-4xl text-3xl font-zoocute leading-[7vh]">
             Meet $GRAPH, the cryptocurrency that&apos;s taking the market to new heights with its adorable mascot, G-raph the giraffe.
@@ -53,7 +53,7 @@ export default function Home() {
           <div className="absolute z-30 w-[100vw] h-[30vw] bottom-[-12vw] bg-[url('/components/desktop_leaf_upside_down.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
 
           <div className="absolute z-20 w-full h-[30vw] lg:hidden bottom-[-25vw] lg:bottom-[-30vw] bg-green-green"></div>
-          <div className="absolute z-50 w-full h-[30vw] lg:bottom-[-25vw] bottom-[-15vw] font-zoocute text-6xl lg:text-8xl text-center"> 
+          <div id='how' className="absolute z-50 w-full h-[30vw] lg:bottom-[-25vw] bottom-[-15vw] font-zoocute text-6xl lg:text-8xl text-center"> 
             HOW TO BUY
           </div>
       </div>

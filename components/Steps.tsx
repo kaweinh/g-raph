@@ -140,7 +140,7 @@ const Steps = (props: Props) => {
             <div className="absolute lg:hidden z-30 w-[120vw] h-[120vw] bottom-[-80vw] bg-[url('/components/leaf_light_green.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
             <div className="absolute hidden lg:flex z-30 w-[120vw] h-[43vw] bottom-[-24vw] bg-[url('/components/desktop_leaf_light_green.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
 
-            <div className='absolute text-6xl lg:text-8xl z-30 bottom-[-10vw] lg:bottom-[0vw]'> TOKENOMICS </div>
+            <div id='tokenomics' className='absolute text-6xl lg:text-8xl z-30 bottom-[-10vw] lg:bottom-[0vw]'> TOKENOMICS </div>
 
             <div className='absolute z-20 w-full h-[30vw] bottom-[-40vw] bg-dark-green'></div>
       </div>
