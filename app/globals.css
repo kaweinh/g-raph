@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "jungle-land";
+  src: url("/fonts/jungle-land.otf") format('opentype');
+}
+
+@font-face {
+  font-family: "zoocute";
+  src: url("/fonts/zoocute-regular.otf") format('opentype');
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
