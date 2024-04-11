@@ -82,7 +82,7 @@ const Navbar = (props: Props) => {
 
     return (
         <div className='block relative text-white'>
-            <div className={ `absolute z-50 flex w-full h-[90px] justify-center items-center bg-black ease-in-out ${ mobileMenuOpen ? 'bg-opacity-90' : 'bg-opacity-20'} ${ mobileMenuOpen ? 'backdrop-blur-sm' : 'backdrop-blur-xl'} `}>
+            <div className={ `absolute z-50 flex w-[101vw] left-[-1vw] h-[90px] justify-center items-center bg-black ease-in-out ${ mobileMenuOpen ? 'bg-opacity-90' : 'bg-opacity-20'} ${ mobileMenuOpen ? 'backdrop-blur-sm' : 'backdrop-blur-xl'} `}>
 
                 <div className='z-50 lg:hidden text-white absolute mr-[10px] mt-[0px] right-0 hover:text-gray-500 cursor-pointer p-5' onClick={() => { setMobileMenuOpen( !mobileMenuOpen )}} >
                     { mobileMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
