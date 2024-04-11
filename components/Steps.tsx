@@ -4,6 +4,17 @@ type Props = {}
 import { motion, useInView, useAnimation } from "framer-motion";
 
 const Steps = (props: Props) => {
+    const [copyText, setCopyText] = React.useState('COPY')
+
+    const handleCopy = async () => {
+        try {
+            await navigator.clipboard.writeText('0x9f9c8ec3534c3f5f8a7e8c7d4f7f2e6b9c3b04a7')
+            setCopyText('COPIED')
+        } catch (err) {
+            console.error('Failed to copy: ', err)
+        }
+    }
+
     return (
         <div className=" bg-green-green w-full h-fit pt-[30vw] lg:pt-[30vh] font-zoocute relative text-6xl flex flex-col items-center justify-center text-white">
             <div className="mb-[5vh]">
@@ -16,10 +27,11 @@ const Steps = (props: Props) => {
                 </div>
 
                 <motion.div 
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="w-[90%] lg:w-[20%] h-[10vh] lg:mb-0 mb-[10vh] bg-[url('/components/yellow_button.png')] cursor-pointer bg-center bg-contain object-contain select-none bg-no-repeat font-zoocute text-black flex items-center justify-center text-6xl">
-                    COPY
+                    onClick={ handleCopy }
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="w-[90%] lg:w-[20%] h-[10vh] lg:mb-0 mb-[10vh] bg-[url('/components/yellow_button.png')] cursor-pointer bg-center bg-contain object-contain select-none bg-no-repeat font-zoocute text-black flex items-center justify-center text-6xl">
+                        { copyText }
                 </motion.div>
             </div>
 
