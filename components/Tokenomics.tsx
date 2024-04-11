@@ -62,7 +62,7 @@ const Tokenomics = (props: Props) => {
                         className="text-5xl mt-[5vh] bg-[url('/components/chart_bottom_button.png')] cursor-pointer bg-no-repeat bg-center bg-contain object-contain lg:w-[10vw] lg:h-[10vh] w-[50%] h-[30vw]"
                     ></motion.div>
 
-                    <div className='text-2xl lg:text-4xl mt-[10vh]'> 0x5ace197d87b614942bc1670eb0ddd55ce4432801 </div>
+                    <div className='text-2xl lg:text-4xl 2xl:text-6xl mt-[10vh]'> 0x5ace197d87b614942bc1670eb0ddd55ce4432801 </div>
                 </div>
             </div>
 

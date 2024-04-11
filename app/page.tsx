@@ -19,7 +19,7 @@ export default function Home() {
         <TopPortion />
       </div>
 
-      <div className=" bg-medium-dark-green w-full z-20 h-fit relative">
+      <div className=" bg-medium-dark-green w-full z-20 h-fit relative text-white">
           <div className="absolute lg:hidden z-20 w-[150vw] h-[120vw] left-[-20vw] top-[-75vw] bg-[url('/components/leaf_ground.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
           <div className="absolute lg:hidden z-10 w-full h-[20vw] bg-medium-dark-green top-[-6.5vw] left-[-5vw] rotate-12"></div>
 

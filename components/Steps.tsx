@@ -5,13 +5,13 @@ import { motion, useInView, useAnimation } from "framer-motion";
 
 const Steps = (props: Props) => {
     return (
-        <div className=" bg-green-green w-full h-fit pt-[30vw] lg:pt-[30vh] font-zoocute relative text-6xl flex flex-col items-center justify-center">
+        <div className=" bg-green-green w-full h-fit pt-[30vw] lg:pt-[30vh] font-zoocute relative text-6xl flex flex-col items-center justify-center text-white">
             <div className="mb-[5vh]">
                 Contract Address
             </div>
 
             <div className='flex flex-col lg:flex-row justify-center items-center w-full'>
-                <div className="w-[90%] lg:w-[30%] h-[10vh] bg-[url('/components/brown_button.png')] lg:mb-0 mb-[5vh] bg-center bg-contain object-contain bg-no-repeat font-zoocute text-white flex items-center justify-center text-xl lg:text-3xl">
+                <div className="w-[90%] lg:w-[30%] h-[10vh] bg-[url('/components/brown_button.png')] lg:mb-0 mb-[5vh] bg-center bg-contain object-contain bg-no-repeat font-zoocute text-white flex items-center justify-center text-xl lg:text-3xl 2xl:text-4xl">
                     0x9f9c8ec3534c3f5f8a7e8c7d4f7f2e6b9c3b04a7
                 </div>
 
@@ -140,7 +140,7 @@ const Steps = (props: Props) => {
             <div className="absolute lg:hidden z-30 w-[120vw] h-[120vw] bottom-[-80vw] bg-[url('/components/leaf_light_green.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
             <div className="absolute hidden lg:flex z-30 w-[120vw] h-[43vw] bottom-[-24vw] bg-[url('/components/desktop_leaf_light_green.png')] bg-center bg-contain object-contain bg-no-repeat"></div>
 
-            <div id='tokenomics' className='absolute text-6xl lg:text-8xl z-30 bottom-[-10vw] lg:bottom-[0vw]'> TOKENOMICS </div>
+            <div id='tokenomics' className='absolute text-6xl lg:text-8xl z-30 bottom-[-10vw] lg:bottom-[0vw] text-white'> TOKENOMICS </div>
 
             <div className='absolute z-20 w-full h-[30vw] bottom-[-40vw] bg-dark-green'></div>
       </div>
