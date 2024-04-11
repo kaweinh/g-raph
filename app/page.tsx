@@ -4,11 +4,16 @@ import TopPortion from "@/components/TopPortion"
 import { motion, useInView, useAnimation } from "framer-motion";
 import Steps from "@/components/Steps";
 import Tokenomics from "@/components/Tokenomics";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div className='w-screen h-fit relative flex flex-col justify-start items-center overflow-x-hidden'>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700"></link>
+
+      <div className='w-full fixed z-50 top-0'>
+        <Navbar />
+      </div>
 
       <div className="z-10 w-full">
         <TopPortion />
