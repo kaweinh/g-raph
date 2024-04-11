@@ -38,7 +38,7 @@ const Navbar = (props: Props) => {
                 <motion.div 
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="bg-[url('/components/black_button.png')] flex items-center justify-center cursor-pointer w-[140px] h-[50px] bg-center mx-[1vw] bg-no-repeat bg-contain object-contain"
+                    className="bg-[url('/components/black_button.png')] flex items-center justify-center cursor-pointer w-[140px] h-[50px] bg-center mx-[2vw] bg-no-repeat bg-contain object-contain"
                 > <div className='mt-[10px] text-5xl select-none'>BUY</div> </motion.div>
             )
         } else if( name == 'CHART' ) {
@@ -46,7 +46,7 @@ const Navbar = (props: Props) => {
                 <motion.div 
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
-                    className="bg-[url('/components/black_button.png')] flex items-center justify-center cursor-pointer w-[140px] h-[50px] bg-center mx-[1vw] bg-no-repeat bg-contain object-contain"
+                    className="bg-[url('/components/black_button.png')] flex items-center justify-center cursor-pointer w-[140px] h-[50px] bg-center mx-[2vw] bg-no-repeat bg-contain object-contain"
                 > <div className='mt-[10px] text-5xl select-none'>CHART</div> </motion.div>
             )
         } else {
@@ -84,6 +84,7 @@ const Navbar = (props: Props) => {
         <div className='block relative text-white'>
             <div className={ `absolute z-50 flex w-[101vw] left-[-1vw] h-[90px] justify-center items-center bg-black ease-in-out ${ mobileMenuOpen ? 'bg-opacity-90' : 'bg-opacity-20'} ${ mobileMenuOpen ? 'backdrop-blur-sm' : 'backdrop-blur-xl'} `}>
 
+                
                 <div className='z-50 lg:hidden text-white absolute mr-[10px] mt-[0px] right-0 hover:text-gray-500 cursor-pointer p-5' onClick={() => { setMobileMenuOpen( !mobileMenuOpen )}} >
                     { mobileMenuOpen ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
                 </div>

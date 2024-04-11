@@ -11,7 +11,7 @@ const Steps = (props: Props) => {
             </div>
 
             <div className='flex flex-col lg:flex-row justify-center items-center w-full'>
-                <div className="w-[90%] lg:w-[30%] h-[10vh] bg-[url('/components/brown_button.png')] lg:mb-0 mb-[5vh] bg-center bg-contain object-contain bg-no-repeat font-zoocute text-white flex items-center justify-center text-xl lg:text-3xl 2xl:text-4xl">
+                <div className="w-[90%] lg:w-[30%] h-[10vh] bg-[url('/components/brown_button.png')] lg:mb-0 mb-[5vh] bg-center bg-contain object-contain bg-no-repeat font-zoocute text-white flex items-center justify-center text-2xl lg:text-3xl 2xl:text-4xl">
                     0x9f9c8ec3534c3f5f8a7e8c7d4f7f2e6b9c3b04a7
                 </div>
 
