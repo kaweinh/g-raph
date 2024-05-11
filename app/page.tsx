@@ -58,6 +58,7 @@ export default function Home() {
           <motion.div 
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
+              onClick={ () => { window.open('https://www.pump.fun/BbwcMk2sQochhsGM4Bxhp2zSPHHHQg9H8ocDj22ug7dS', '_blank') } }
               className="bg-[url('/components/pumpfun.png')] cursor-pointer lg:w-[4vw] lg:h-[4vw] w-[15vw] h-[15vw] mx-[5vw] lg:mx-[2vw] bg-center bg-contain object-contain"
           ></motion.div>
         </div>
