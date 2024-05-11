@@ -11,7 +11,7 @@ export default function Home() {
     <div className='w-screen h-screen relative flex justify-center items-center overflow-x-hidden overflow-y'>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:300,400,600,700"></link>
 
-      <div className="absolute z-20 w-full h-full left-0 top-0">
+      <div className="absolute z-20 w-full h-full left-0 top-0 hidden lg:flex">
           <video
               id='dash-vid'
               autoPlay
@@ -21,6 +21,20 @@ export default function Home() {
               className="w-full h-full object-cover"
           >
               <source src="/videos/longboiz.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+          </video>
+      </div>
+
+      <div className="absolute z-20 w-full h-full left-0 top-0 flex lg:hidden">
+          <video
+              id='dash-vid'
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+          >
+              <source src="/videos/longboiz_mobile.mp4" type="video/mp4" />
               Your browser does not support the video tag.
           </video>
       </div>
