@@ -40,16 +40,18 @@ export default function Home() {
       </div>
 
       <div className="absolute h-full w-full flex justify-center items-center z-30">
-        <div className="flex items-center justify-start lg:mt-[35%] mt-[70%]">
+        <div className="flex items-center justify-start lg:mt-[35%] mt-[140%]">
           <motion.div 
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
+              onClick={ () => { window.open('https://twitter.com/longboizsol', '_blank') } }
               className="bg-[url('/components/twitter.png')] cursor-pointer lg:w-[4vw] lg:h-[4vw] w-[15vw] h-[15vw] mx-[5vw] lg:mx-[2vw] bg-center bg-contain object-contain"
           ></motion.div>
 
           <motion.div 
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
+              onClick={ () => { window.open('https://t.me/+H0_AEJnIcRdmZTMx', '_blank') } }
               className="bg-[url('/components/telegram.png')] cursor-pointer lg:w-[4vw] lg:h-[4vw] w-[15vw] h-[15vw] mx-[5vw] lg:mx-[2vw] bg-center bg-contain object-contain"
           ></motion.div>
 
