@@ -5,8 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Graph COIN',
-  description: 'G-raph the giraffe is the mascot of Graph COIN, a cryptocurrency that is taking the market to new heights',
+  title: 'LONGBOIS',
+  description: 'LONGBOIS is a solana token, conquering new heights',
 }
 
 export default function RootLayout({
